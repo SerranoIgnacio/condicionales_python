@@ -22,3 +22,13 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+num1 = int(input('Ingrese el primer numero: '))
+num2 = int(input('Ingrese el segundo numero: '))
+res = num1 - num2
+if res > 0:
+    print('El resultado es Positivo')
+elif res < 0:
+    print('El resultado es Negativo')
+else:
+    print('El resultado es Cero')
